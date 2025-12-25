@@ -1,0 +1,37 @@
+
+
+.header .logo{
+    flex-grow: 0;
+justify-content: center;
+text-align: center;
+    
+
+}
+
+
+
+
+
+.header nav a{
+    display: none;
+
+}
+
+
+.header .menu{
+    display: inline-block;
+    color:white;
+    font-size: 30px;
+    margin-right: 30px;}
+
+    .intro,.gallery,.box{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+  .gallery .details{
+    padding: 2em;
+    width:100%;
+  }
+
+
