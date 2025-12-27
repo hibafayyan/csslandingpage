@@ -7,3 +7,14 @@
      
         
     }
+
+
+   
+
+   .countdown i ,.countdown p{
+    font-size: 5px;
+   }
+
+   .countdown h1{
+    font-size: 10px;
+   }

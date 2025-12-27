@@ -34,4 +34,21 @@ text-align: center;
     width:100%;
   }
 
+  .countdown{
+    flex-direction: column;
+    padding-left:1px;
+  }
+
+ 
+
+   .countdown i ,.countdown p{
+    font-size: 20px;
+   }
+
+   .countdown h1{
+    font-size: 30px;
+   }
+.sticky{
+  display:none ;
+}
 
