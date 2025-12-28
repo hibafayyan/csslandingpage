@@ -36,10 +36,15 @@ text-align: center;
 
   .countdown{
     flex-direction: column;
-    padding-left:1px;
+    /* padding-left:1px; */
   }
 
  
+
+
+.sticky{
+  display:none ;
+}
 
    .countdown i ,.countdown p{
     font-size: 20px;
@@ -48,7 +53,6 @@ text-align: center;
    .countdown h1{
     font-size: 30px;
    }
-.sticky{
-  display:none ;
-}
 
+
+   
