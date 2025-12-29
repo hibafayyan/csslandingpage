@@ -347,14 +347,18 @@ color: var(--primarycolor);
 }
 
 .octagon{
-    width: 250px;
+    width: 230px;
     border: 5px solid black;
+    
+clip-path: polygon(30% 0%, 70% 0%, 100% 19%, 100% 78%, 70% 100%, 30% 100%, 0 80%, 0 21%);
+    /* clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); */
+    /* clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%); */
     transition: transform 1s ease-in-out;
    
 }
 
 .octagon:hover{
-transform: scale(1.3);
+transform: scale(1.3);}
 
 
 
